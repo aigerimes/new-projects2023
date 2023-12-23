@@ -9,10 +9,9 @@ const onRevealClick = async () => {
     console.log(img);
     if (data.gender === "female") {
       img.src =
-        "https://thumbs.dreamstime.com/b/women-s-bathroom-sign-vector-design-isolated-white-background-woman-sign-symbol-woman-s-bathroom-sign-symbol-vector-180155886.jpg";
+        "https://creazilla-store.fra1.digitaloceanspaces.com/icons/7914838/woman-icon-md.png";
     } else {
-      img.src =
-        "https://media.compliancesigns.com/media/catalog/product/m/e/mens-boys-sign-rrep-7010-black_on_white_1000.gif";
+      img.src = "https://cdn-icons-png.flaticon.com/512/3233/3233508.png";
     }
     h1.textContent = userName;
   } catch (err) {}

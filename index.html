@@ -3,15 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Gender</title>
   </head>
   <body>
-    <input type="text" id="input" onchange="onChangeHandler(event)" />
+    <div class="container">
+      <div class="wrapper">
+        <input
+          type="text"
+          id="input"
+          onchange="onChangeHandler(event)"
+          placeholder=" type your name..."
+        />
 
-    <button onclick="onRevealClick()">reveal</button>
+        <button id="click" onclick="onRevealClick()">reveal</button>
 
-    <h1 id="name"></h1>
-    <img id="pic" src="" alt="male/female" />
+        <h1 id="name"></h1>
+        <img id="pic" src="" alt="" />
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
