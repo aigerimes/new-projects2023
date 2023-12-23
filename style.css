@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: ;
 }
 body {
   /* background-image: url(https://img-c.udemycdn.com/course/750x422/4393944_5648_2.jpg); */
@@ -66,11 +65,24 @@ body {
   box-shadow: 0px 0px 10px 5px;
   color: #03151d;
 }
+#input:hover,
+#input:focus,
+#input:active {
+  color: #5680cf;
+  line-height: 30px;
+}
+
 #click {
   background-color: tomato;
   color: white;
   border: none;
   border-radius: 0.5em;
+}
+#click:hover,
+#click:focus,
+#click:active {
+  box-shadow: 0 0 20px rgba(red, green, blue, alpha);
+  -webkit-transform: scale(1.1);
 }
 #name {
   text-align: center;
@@ -80,6 +92,7 @@ body {
   right: 76px;
   bottom: 20px;
   padding: 10px;
+  /* font-family: "Rubik Doodle Shadows", sans-serif; */
 }
 #pic {
   height: 8em;
